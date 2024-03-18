@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background: black;
+            margin: 0px;
+            color: white;
+        }
+        .kvadrats{
+            width: 300px;
+            height: 300px;
+        }
+        #sarkans{
+            background: linear-gradient(red,#380000);
+        }
+        #zils{
+            background: linear-gradient(blue,aqua);
+        }
+        #zaljs{
+            background: linear-gradient(green,lightgreen);
+        }
+        #dzeltens{
+            background: linear-gradient(yellow,lightgreen);
+        }
+        .kvadrats{
+            margin: 10px;
+        }
+        #flexbox{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        p{
+            font-size: 40px;
+        }
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taisnstuuri</title>
+</head>
+<body>
+    <center>
+        <p>4 Kvadraati</p>
+    </center>
+    <div id="flexbox">
+        <div class="kvadrats" id="sarkans"></div>
+        <div class="kvadrats" id="zils"></div>
+        <div class="kvadrats" id="zaljs"></div>
+        <div class="kvadrats" id="dzeltens"></div>
+    </div>
+</body>
+</html>
